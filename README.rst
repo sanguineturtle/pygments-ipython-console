@@ -1,6 +1,6 @@
-================
+========================
 pygments-ipython-console
-================
+========================
 -----------------------------------------
 Syntax coloring for IPython Console Files
 -----------------------------------------
@@ -16,6 +16,7 @@ You can then use the ``ipython`` language with Pygments::
 
     $ pygmentize -l ipython test.ipy
 
+[Or use the standard sphinx import of ipython_console_highlight.py]
 In Sphinx_ documents the lexer is selected with the ``highlight`` directive::
 
     .. highlight:: ipython
@@ -23,8 +24,28 @@ In Sphinx_ documents the lexer is selected with the ``highlight`` directive::
 .. _Pygments: http://pygments.org/
 .. _Sphinx: http://sphinx-doc.org/
 
+Thanks to pygments-openssl project for providing a template [https://github.com/stefanholek/pygments-openssl]
+
+Requirements
+============
+This needs IPython 1.0+ for sphinxext module
+
+
 Installation
 ============
 
-TBA
+Use your favorite installer to install pygments-ipython into the same Python you have installed Pygments.
+
+Construct Egg from repository
+	$ python setup.py bdist_egg
+
+For example [change directory to dist/ folder to locate egg file]:
+
+	$ easy_install pygments-ipython-console
+
+To verify the installation run:
+
+	$ pygmentize -L lexer | grep -i ipython
+	* ipython:
+    	IPython console session (filenames *.ipy)
 
