@@ -36,14 +36,14 @@ Installation
 
 Use your favorite installer to install pygments-ipython into the same Python you have installed Pygments.
 
-Construct Egg from repository
+Construct Egg from repository::
 	$ python setup.py bdist_egg
 
-For example [change directory to dist/ folder to locate egg file]:
+For example [change directory to dist/ folder to locate egg file]::
 
 	$ easy_install pygments-ipython-console
 
-To verify the installation run:
+To verify the installation run::
 
 	$ pygmentize -L lexer | grep -i ipython
 	* ipython:
