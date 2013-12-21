@@ -30,18 +30,19 @@ Requirements
 ============
 This needs IPython 1.0+ for sphinxext module
 
-
 Installation
 ============
 
 Use your favorite installer to install pygments-ipython into the same Python you have installed Pygments.
+Constructing an egg from repository::
 
-Construct Egg from repository::
+	$ git clone https://sanguineturtle@bitbucket.org/sanguineturtle/pygments-ipython-console.git
+	$ cd pygments-ipython-console
 	$ python setup.py bdist_egg
 
 For example [change directory to dist/ folder to locate egg file]::
 
-	$ easy_install pygments-ipython-console
+	$ easy_install pygments-ipython-console.egg
 
 To verify the installation run::
 
