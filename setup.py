@@ -1,6 +1,8 @@
+# Version 0.2 - Update Lexer from IPython2.0
+
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.2.3'
 
 setup(name='pygments-ipython-console',
       version=version,
@@ -27,6 +29,6 @@ setup(name='pygments-ipython-console',
           'setuptools',
       ],
       entry_points={
-          'pygments.lexers': 'ipython=lexer:IPythonConsoleLexer',
+          'pygments.lexers': 'ipython=lexer:IPythonLexer',
       },
 )
