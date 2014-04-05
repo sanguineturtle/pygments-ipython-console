@@ -28,7 +28,7 @@ Thanks to pygments-openssl project for providing a template [https://github.com/
 
 Requirements
 ============
-This needs IPython 1.0+ for sphinxext module
+This needs IPython 2.0+ for sphinxext module
 
 Installation
 ============
@@ -54,3 +54,7 @@ pygments-ipython-console
 ========================
 
 IPython Console Installer for Pygments
+
+Notes:
+======
+This will install IPythonLexer. There are other Lexers in IPython2.0 and can be changed through the simple lexer.py file
