@@ -28,7 +28,7 @@ Thanks to pygments-openssl project for providing a template [https://github.com/
 
 Requirements
 ============
-This needs IPython 1.0+ for sphinxext module
+This needs IPython 2.0+ for lexers module
 
 Installation
 ============
@@ -50,3 +50,6 @@ To verify the installation run::
 	* ipython:
     	IPython console session (filenames *.ipy)
 
+Notes:
+=====
+[1] This installs the Lexer: IpythonLexer. There are other lexers in IPython2.0 and you can change them by editing the simple lexer.py file
