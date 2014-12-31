@@ -36,7 +36,7 @@ Installation
 Use your favorite installer to install pygments-ipython into the same Python you have installed Pygments.
 Constructing an egg from repository::
 
-	$ git clone https://sanguineturtle@bitbucket.org/sanguineturtle/pygments-ipython-console.git
+	$ git clone https://github.com/sanguineturtle/pygments-ipython-console.git
 	$ cd pygments-ipython-console
 	$ python setup.py bdist_egg
 
