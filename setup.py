@@ -1,8 +1,8 @@
-# Version 0.2.4 - Update Lexer to new IPython location
+# Version 0.2.5 - Update Lexer to new IPython location and add IPythonConsoleLexer
 
 from setuptools import setup, find_packages
 
-version = '0.2.4'
+version = '0.2.8'
 
 setup(name='pygments-ipython-console',
       version=version,
@@ -19,7 +19,7 @@ setup(name='pygments-ipython-console',
           'Programming Language :: Python :: 3',
       ],
       keywords='pygments ipython conf lexer',
-      author='Matthew McKay',
+      author='Matt McKay',
       author_email='mamckay@gmail.com',
       url='',
       license='BSD',
@@ -29,6 +29,8 @@ setup(name='pygments-ipython-console',
           'setuptools',
       ],
       entry_points={
-          'pygments.lexers': 'ipython=lexer:IPythonLexer',
+          'pygments.lexers': ['ipython=lexer:IPythonLexer',
+                              'ipythonconsole=lexer:IPythonConsoleLexer',
+                              ],
       },
 )

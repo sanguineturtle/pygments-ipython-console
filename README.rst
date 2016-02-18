@@ -21,7 +21,6 @@ In Sphinx_ documents the lexer is selected with the ``highlight`` directive::
 
     .. highlight:: ipython
 
-
 .. _Pygments: http://pygments.org/
 .. _Sphinx: http://sphinx-doc.org/
 
