@@ -21,10 +21,11 @@ In Sphinx_ documents the lexer is selected with the ``highlight`` directive::
 
     .. highlight:: ipython
 
+
 .. _Pygments: http://pygments.org/
 .. _Sphinx: http://sphinx-doc.org/
 
-Thanks to pygments-openssl project for providing a template [https://github.com/stefanholek/pygments-openssl]
+Thanks to pygments-openssl project for providing a `template <https://github.com/stefanholek/pygments-openssl>`__
 
 Requirements
 ============
