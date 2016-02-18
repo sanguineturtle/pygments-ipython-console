@@ -1,0 +1,4 @@
+build/
+pygments_ipython_console.egg-info/
+*.aux
+*.log
